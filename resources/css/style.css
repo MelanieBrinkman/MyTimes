@@ -1,17 +1,37 @@
+/*Header*/
+
 header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .logo {
   display: flex;
   margin-left: 20px;
+  margin-bottom: 10px;
   align-items: center;
+  flex-grow: 1;
 }
 
 .logo span {
   color: MediumAquamarine;
   margin-left: 10px;
+}
+
+nav {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+nav span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  color: black;
 }
