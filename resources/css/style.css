@@ -35,3 +35,28 @@ nav span {
 a {
   color: black;
 }
+
+/*main content*/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section.first {
+  width: 630px;
+}
+
+.section.second {
+  width: 300px;
+}
+
+.section.third {
+  width: 240px;
+  margin-right: 60px;
+}
