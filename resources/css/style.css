@@ -41,6 +41,7 @@ a {
 .main {
   display: flex;
   justify-content: space-between;
+  font-family: Georgia;
 }
 
 .section {
@@ -72,12 +73,16 @@ a {
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  align-items: center;
 }
 
 .story-text {
@@ -90,22 +95,30 @@ a {
   background-image: url("../images/img-story-main.png");
   font-size: 40px;
   text-align: left;
-  margin-top: 0;
+  margin-top: 30px;
+  padding-left: 15px;
 }
 
 .earth-story {
   background-image: url("../images/img-story-2.png");
+  margin-top: 40px;
 }
 
 .camera-story {
   background-image: url("../images/img-story-3.png");
+  margin-top: 40px;
 }
 
 /*second column*/
 
 .section.second {
   width: 300px;
-  margin-top: 40px;
+}
+
+.section h2 {
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 .cat-story {
@@ -133,6 +146,7 @@ a {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .bite {
